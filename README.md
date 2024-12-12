@@ -20,13 +20,13 @@ This approach ensures that as more sequencing data are produced, the database au
     - Incoming data is pre-filtered to remove bacterial sequences and potential NUMTS (nuclear pseudo-genes) (how?)
 
 3. **Dynamic MOTU assignment**:  
-   - New sequences are compared against the list of existing MINs and those that are within 2(3?) similarity of an existing MIN is assigned to that MIN
+   - New sequences are compared against the list of existing MINs and those that are within 2(3?)% similarity of an existing MIN is assigned to that MIN
    - When no match is found, a new MIN is created 
    - To limit volume, at this point only sequences that contribute a minimum of %% are processed (but all are retained in original datasets)
    - Provide stable, reproducible MOTU assignments that can be tracked across different datasets and sampling periods.
 
 
-3. **Reference database maintenance**:  
+3. **Reference database maintenance**: 
    - Maintain a reference database of MOTUs, each represented by a representative sequence (or a consensus sequence)
    - Keep track of variability within MOTUs.
    - Facilitate easy updates, ensuring that as MOTU definitions evolve, historical assignments remain accessible and comparable.
