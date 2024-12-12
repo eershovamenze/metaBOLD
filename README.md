@@ -50,4 +50,4 @@ This approach ensures that as more sequencing data are produced, the database au
 
 ---
 
-By providing a stable, scalable platform for MOTU classification and distribution analysis, this project фшьы to support researchers in tracking biodiversity shifts, understanding invertebrate community composition, and making informed conservation decisions.
+By providing a stable, scalable platform for MOTU classification and distribution analysis, this project aims to support researchers in tracking biodiversity shifts, understanding invertebrate community composition, and making informed conservation decisions.
