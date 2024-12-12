@@ -2,7 +2,7 @@
 ## Overview
 This project aims to maintain a dynamically growing database of Molecular Operational Taxonomic Units (MOTUs) derived from invertebrate community metabarcoding data, based on the COI-mini barcode (Leray fragment). The concept is borrowed from BOLD's BIN (Barcode Identifier Index) principle (https://portal.boldsystems.org/bin). The core idea is to store a “reference” collection of MOTUs, each represented by a known reference sequence or consensus sequence, and assign them a global identifier index (MIN, MOTU Identifier Index). When new sequences are introduced, the system compares them against existing MOTUs. If a new sequence meets a predefined similarity threshold (e.g., 97% sequence similarity), it is assigned to that MOTU. Otherwise, it generates a new MOTU identifier (MIN) and adds it to the database.
 
-This approach ensures that as more sequencing data are produced, the database automatically incorporates these novel sequences into a cohesive, standardized MOTU framework.
+This approach ensures that as more sequencing data are produced, the database automatically incorporates these novel sequences into a cohesive, standardized MOTU framework. This database does not provide, nor does it aim to provide, taxonomic assignments. However, if a MIN matches a BIN on BOLD (https://boldsystems.org), it will link to that BIN, which typically includes detailed taxonomic information.
 
 ## Key Features
 
@@ -29,6 +29,7 @@ This approach ensures that as more sequencing data are produced, the database au
 3. **Reference database maintenance**: 
    - Maintain a reference database of MOTUs, each represented by a representative sequence (or a consensus sequence)
    - Keep track of variability within MOTUs.
+   - If a MIN matches to a BIN on BOLD, add a link to that BIN. At regular intervals, test non-matched MINs, in case new taxonomic information becomes available (through BOLD itself or a regularly updated local copy?)
    - Facilitate easy updates, ensuring that as MOTU definitions evolve, historical assignments remain accessible and comparable.
 
 4. **Associated metadata and distribution insights**:  
