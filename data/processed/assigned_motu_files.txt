@@ -1,5 +1,3 @@
-flod2_motu_list.csv
 flod1_motu_list.csv
+flod2_motu_list.csv
 tromso3_motu_list.csv
-tromso2_motu_list.csv
-flod3_motu_list.csv

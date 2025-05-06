@@ -1,5 +1,0 @@
-MOTU_TR_Exp2_LULU.csv
-MOTU_TR_Exp3_LULU.csv
-MOTU_FL_Exp3_LULU.csv
-MOTU_FL_Exp2_LULU.csv
-MOTU_FL_Exp1_LULU.csv
